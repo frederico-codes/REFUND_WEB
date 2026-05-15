@@ -1,12 +1,11 @@
-type UserApiRole = "employee" | "manager"
-
+type UserApiRole = "employee" | "manager";
 
 type UserApiResponse = {
-    token:string
-        user :{
-        id:string
-        name:string
-        email:string
-        role: UserApiRole        
-    }
-}
+  token: string;
+  user: {
+    id: string;
+    name: string;
+    email: string;
+    role: UserApiRole;
+  };
+};

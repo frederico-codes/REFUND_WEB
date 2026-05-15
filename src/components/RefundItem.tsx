@@ -1,32 +1,36 @@
 export type RefundItemProps = {
-    id:string
-    name:string
-    description: string
-    amount: string
-    categoryImg:string
-}
+  id: string;
+  name: string;
+  description: string;
+  amount: string;
+  categoryImg: string;
+};
 
 type Props = React.ComponentProps<"a"> & {
-    data: RefundItemProps
-}
+  data: RefundItemProps;
+};
 
-export function RefundItem({ data, ...rest }:Props){
-    return (
-        <a 
-            className="flex items-center gap-3 hover:bg-green-100/5 cursor-pointer rounded-md p-2"
-            {...rest}>
-                <img src={data.categoryImg} alt="Ícone de categoria" className="w-8 h-8"/>
+export function RefundItem({ data, ...rest }: Props) {
+  return (
+    <a
+      className="flex items-center gap-3 hover:bg-green-100/5 cursor-pointer rounded-md p-2"
+      {...rest}
+    >
+      <img
+        src={data.categoryImg}
+        alt="Ícone de categoria"
+        className="w-8 h-8"
+      />
 
-            <div className="flex flex-col flex-1">
-                <strong>{data.name}</strong>
-                <span className="text-xs text-gray-200">{data.description}</span>
-            </div>
+      <div className="flex flex-col flex-1">
+        <strong>{data.name}</strong>
+        <span className="text-xs text-gray-200">{data.description}</span>
+      </div>
 
-            <span className="text-sm text-gray-100 font-semibold">
-                <small className="font-normal text-gray-200">R$ </small>
-                {data.amount}
-            </span>
-        </a>
-
-    )
+      <span className="text-sm text-gray-100 font-semibold">
+        <small className="font-normal text-gray-200">R$ </small>
+        {data.amount}
+      </span>
+    </a>
+  );
 }
