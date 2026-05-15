@@ -1,7 +1,7 @@
 # Refund 2.0 — App de Solicitação de Reembolsos
 
 <p align="center">
-  <img src="web/src/assets/Cover.png" alt="Tela do Sistema de reembolso 2.0" />
+  <img src="./src/assets/Cover.png" alt="Tela do Sistema de reembolso 2.0" />
 </p>
 
 Aplicação **frontend** desenvolvida com **React + TypeScript + Vite** e estilizada com **Tailwind CSS**.  
