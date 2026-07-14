@@ -6,11 +6,7 @@
 
 <div align="center">
 
-![React](https://img.shields.io/badge/React-19.1.1-61DAFB?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?logo=typescript)
-![Vite](https://img.shields.io/badge/Vite-7.1.0-646CFF?logo=vite)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.11-06B6D4?logo=tailwindcss)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 **Aplicação frontend moderna para gestão de reembolsos corporativos com controle baseado em papéis de usuário**
 
