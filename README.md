@@ -292,7 +292,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 Desenvolvido com ❤️ usando **React**, **TypeScript** e **Tailwind CSS**.
 
-# ambiente de desenvolvimento
-npm run dev
+
 
 
