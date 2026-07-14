@@ -14,7 +14,7 @@ export function Header(){
                 <img 
                 src={logoutSvg} 
                 alt="Ícone de sair" 
-                className="my-8 curso-pointer hover:opacity-75 transition ease-linear"
+                className="my-8 cursor-pointer hover:opacity-75 transition ease-linear h-6"
                 onClick={() => auth.remove()}/>
             </div>
         </header>
